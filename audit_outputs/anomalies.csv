@@ -1,0 +1,14 @@
+check,detail,count
+folder layout,image files outside the trial/patient/visit/eye layout,1800.0
+counts,"patients: expected 87, found 96",
+counts,"eyes: expected 96, found 190",
+counts,"PRIME eyes: expected 40, found 79",
+counts,"TREX eyes: expected 56, found 111",
+scans per volume,volumes without exactly 49 B-scans,3118.0
+scans per volume,volumes with missing or duplicated scan numbers,3118.0
+labels,clinical label file not found under the project folder,
+biomarker labels,"empty entries: {'Partially attached vitreous face': 6, 'Fully attached vitreous face': 3, 'Preretinal tissue/hemorrhage': 2, 'Vitreous debris': 8}",19.0
+label-image match,"eyes on disk with no biomarker labels: ['PRIME|01-001|OD', 'PRIME|01-002|OS', 'PRIME|01-012|OS', 'PRIME|01-013|OS', 'PRIME|01-014|OD', 'PRIME|01-020|OD', 'PRIME|01-023|OS', 'PRIME|01-025|OS', 'PRIME|01-026|OS', 'PRIME|01-027|OD']",94.0
+duplicate volumes,187 sets of identical volumes (183 span different eyes),374.0
+image properties,"more than one image size: ['504x496', '768x768']",
+image properties,"more than one colour mode: ['L', 'RGB']",
